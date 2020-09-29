@@ -1,0 +1,8 @@
+Implementaciones de JS A LA GALERIA DE IMAGENES
+
+1-Funciones
+2-Evento con Target
+3-"document.GetElement" Elementos DOM
+4-Eventos como clickhandler entre otros.
+
+

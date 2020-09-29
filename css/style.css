@@ -1,23 +1,36 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    margin: auto;
+   
 }
 h1{
     text-align: center;
-    margin: 30px 0 50px;
+    margin: 30px  50px;
     color: blueviolet;
-}
-.gallery{
-    margin: 10px 50px;
+    margin-left: -1px;
+    
 }
 .gallery img{
-    width: 200px;
-    padding: 5px;
+    width: 100px;
+    padding: 3px;
     filter: grayscale(100%);
     transition: 0.2s;
+    border: 2px solid cornflowerblue;
+    
 }
 .gallery img:hover{
     filter: grayscale(0%);
     transform: scale(1.135);
+}
+.imagengrande{
+    width: 445px;
+    padding: 10px;
+    border: 2px solid cornflowerblue;
+}
+.contenido{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+   
+    
     
 }

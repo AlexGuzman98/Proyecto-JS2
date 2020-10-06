@@ -9,7 +9,7 @@ h1{
     margin-left: -1px;
     
 }
-.gallery img{
+#subimagen img{
     width: 100px;
     padding: 3px;
     filter: grayscale(100%);
@@ -17,11 +17,11 @@ h1{
     border: 2px solid cornflowerblue;
     
 }
-.gallery img:hover{
+#subimagen img:hover{
     filter: grayscale(0%);
     transform: scale(1.135);
 }
-.imagengrande{
+#grande img{
     width: 445px;
     padding: 10px;
     border: 2px solid cornflowerblue;

@@ -1,5 +1,8 @@
 body{
     font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
    
 }
 h1{
@@ -26,11 +29,4 @@ h1{
     padding: 10px;
     border: 2px solid cornflowerblue;
 }
-.contenido{
-    width: 500px;
-    padding: 10px;
-    margin: auto;
-   
-    
-    
-}
+

@@ -1,7 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
-    padding: 10px;
+    padding: auto;
     margin: auto;
    
 }
@@ -13,8 +13,8 @@ h1{
     
 }
 #subimagen img{
-    width: 100px;
-    padding: 3px;
+    width: 110px;
+    padding: auto;
     filter: grayscale(100%);
     transition: 0.2s;
     border: 2px solid cornflowerblue;
@@ -22,11 +22,17 @@ h1{
 }
 #subimagen img:hover{
     filter: grayscale(0%);
-    transform: scale(1.135);
+    transform: scale(1.100);
 }
+
 #grande img{
-    width: 445px;
-    padding: 10px;
+    width: 482px;
+    padding: auto;
     border: 2px solid cornflowerblue;
 }
 
+/* Clase para resaltar la imagen activa manejada con JavaScript */
+.active {
+    filter: grayscale(0%);
+    transform: scale(1.110);
+}
